@@ -9,4 +9,6 @@ $button_n1.click(changeColor);
 const $input = $("#input");
 const $output = $("#output");
 
-// TODO: handle input to show value below
+$input.on("input", (e) => {
+    $output.text(e.target.value);
+});
