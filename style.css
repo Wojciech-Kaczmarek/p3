@@ -2,3 +2,8 @@
 .red_n1{
  color: red;   
 }
+
+#input {
+  margin: 2em 0;
+  padding: 0.5em;
+}
