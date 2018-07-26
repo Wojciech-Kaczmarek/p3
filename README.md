@@ -3,6 +3,6 @@ simple, beginner project: p3
 
 ## How to develop
 Type in teminal: npm install.
-Then type: npm build.
+Then type: npm run build.
 Run index.html in browser.
 Enjoy!
