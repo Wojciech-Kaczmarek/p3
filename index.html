@@ -21,7 +21,7 @@
         </ul>
     </nav>
     <main>
-        <article>
+        <article id="get_in_n2">
             <h1>tytul artykulu</h1>
             <img src="grafika.png" alt="co jest w grafice">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima est voluptas incidunt a soluta non consectetur sequi esse odio, provident, suscipit veritatis! Vero, ut modi perferendis dignissimos provident pariatur. Deleniti.</p>
@@ -48,11 +48,20 @@
         <a href="">aa<img src="art1.jpg" alt="obrazek"></a>
         <a href="">bb<img src="art2.jpg" alt="obrazek"></a>
         <a href="http://info.cern.ch" target="_blank" title="begining!">no1<img src="art3.jpg" alt="obrazek testowy"></a>
+        <button id="get_in_n1">kiss</button>
     </section>
     <footer>
         <p>&copy;stopka</p>
     </footer>
     <!-- dziki cmd / dziki -->
     <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script>
+        const $dupsko = jQuery("#get_in_n2");
+        const $button_n1 = jQuery("#get_in_n1");
+        const changeColor = () => {
+            $dupsko.toggleClass("red_n1");
+        };
+        $button_n1.click(changeColor);
+    </script>
 </body>
 </html>
