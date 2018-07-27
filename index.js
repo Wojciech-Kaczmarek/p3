@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 const App = () => {
-  return <div>Hello React!</div>;
+  return <div>p8npm!</div>;
 };
 
 ReactDOM.render(<App />, document.getElementById("app"));
