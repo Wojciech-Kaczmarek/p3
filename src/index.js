@@ -1,8 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Header from "./components/Header";
 // cmd { } //
 const App = () => {
   return <div>
+    <Header />
     <article id="get_in_n2">
       <h1>tytul artykulu</h1>
       <img src="grafika.png" alt="co jest w grafice" />
