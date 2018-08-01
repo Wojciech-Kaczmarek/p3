@@ -7,9 +7,9 @@ const App = () => {
 
 ReactDOM.render(<App />, document.getElementById("app"));
 
-const $dupsko = jQuery("#get_in_n2");
+const $b_n2 = jQuery("#get_in_n2");
 const $button_n1 = jQuery("#get_in_n1");
 const changeColor = () => {
-    $dupsko.toggleClass("red_n1");
+    $b_n2.toggleClass("red_n1");
 };
 $button_n1.click(changeColor);
