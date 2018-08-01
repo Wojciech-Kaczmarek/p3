@@ -1,8 +1,27 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
+// cmd { } //
 const App = () => {
-  return <div>p8npm!</div>;
+  return <div>
+    <article id="get_in_n2">
+      <h1>tytul artykulu</h1>
+      <img src="grafika.png" alt="co jest w grafice" />
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima est voluptas incidunt a soluta non consectetur sequi esse odio, provident, suscipit veritatis! Vero, ut modi perferendis dignissimos provident pariatur. Deleniti.</p>
+      <a href="artykul1.html">czytaj wiecej</a>
+    </article>
+    <article>
+      <h1>tytul artykulu</h1>
+      <img src="grafika.png" alt="co jest w grafice" />
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima est voluptas incidunt a soluta non consectetur sequi esse odio, provident, suscipit veritatis! Vero, ut modi perferendis dignissimos provident pariatur. Deleniti.</p>
+      <a href="artykul1.html">czytaj wiecej</a>
+    </article>
+    <article>
+      <h1>tytul artykulu</h1>
+      <img src="grafika.png" alt="co jest w grafice" />
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima est voluptas incidunt a soluta non consectetur sequi esse odio, provident, suscipit veritatis! Vero, ut modi perferendis dignissimos provident pariatur. Deleniti.</p>
+      <a href="artykul1.html">czytaj wiecej</a>
+    </article>
+  </div>;
 };
 
 ReactDOM.render(<App />, document.getElementById("app"));
